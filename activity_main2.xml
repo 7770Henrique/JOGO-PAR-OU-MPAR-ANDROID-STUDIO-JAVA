@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/NUMEROCOMPUTADOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tela_2__design"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <Button
+        android:id="@+id/BOTAO7"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO9"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO4"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO1"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO5"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO0"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="644dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO2"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO8"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/APAGARBOTAO"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="644dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO6"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="484dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BOTAO3"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/PLAYBOTAO"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="644dp"
+        tools:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="286dp">
+
+        <TextView
+            android:id="@+id/TEXTOUSER"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="230dp">
+
+        <TextView
+            android:id="@+id/RESULTADO"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
